@@ -52,11 +52,19 @@
     width: 400px;
     transition: all 1s ease-out;
 }
+
+
 .ex-10-icon {
     font-size: 60px;
+    animation: rotate 1s linear infinite;
 }
+
 .ex-11-icon {
     font-size: 60px;
+}
+
+.ex-11-icon:hover {
+    animation: midrotate 1s linear
 }
 .ex-12-button, .ex-13-button {
     position: relative;
@@ -75,10 +83,20 @@
     position: absolute;
     top: -10px;
     left: 10%;
-    background: #f5f5f5;
+    background: #F5F5F5;
     width: 60px;
     height: 20px;
 }
+
+.ex-12-button:hover .ex-12-top-white{
+    animation: goright 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white{
+    animation: goleft 2s linear;
+}
+
+
 .ex-12-bottom-white, .ex-13-bottom-white {
     position: absolute;
     bottom: -10px;
@@ -86,4 +104,12 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: moviment 2s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: movimentreverse 2s linear;
 }
