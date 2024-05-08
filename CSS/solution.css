@@ -20,3 +20,23 @@
     height: 100px;
     margin: 0
 }
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-7-img:hover {
+    filter: grayscale(0.6) sepia(0.8);
+}
+
+.ex-8-img:hover {
+    border-radius: 40px;
+    filter: grayscale(0.6) sepia(0.5);
+}
+
+.ex-9-img:hover {
+    margin: 0;
+    width: 580px;
+    border-radius: 20px;    
+    filter: grayscale(.6) sepia(.5)
+}
